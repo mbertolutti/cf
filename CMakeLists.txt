@@ -1,4 +1,3 @@
-add_executable(epi main.cpp)
-target_compile_features(epi PRIVATE cxx_std_20)
-find_package(fmt REQUIRED)
-target_link_libraries(epi PRIVATE fmt::fmt)
+add_executable(cf main.cpp)
+target_compile_features(cf PRIVATE cxx_std_20)
+target_link_libraries(cf PRIVATE)
