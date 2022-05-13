@@ -1,8 +1,18 @@
 //
 
-#include <fmt/core.h>
+#include <iostream>
+
+int solve()
+{
+    return 0;
+}
 
 int main()
 {
-    fmt::print("{}{}{}", "hi ", "epi", "\n\n");
+    int t;
+    std::cin >> t;
+    while (t--)
+    {
+        std::cout << solve() << "\n";
+    }
 }
